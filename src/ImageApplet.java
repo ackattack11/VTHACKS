@@ -171,7 +171,7 @@ public class ImageApplet extends JFrame {
 		try
 		{
 			String s = "";
-			String path = this.getClass().getResource("test.py").getPath();
+			String path = this.getClass().getResource("meta.py").getPath();
 			path = path.substring(1);
 			Process p = Runtime.getRuntime().exec("python " + path + " " + input);
 			
